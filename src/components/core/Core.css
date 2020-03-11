@@ -1,0 +1,13 @@
+.Container {
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.imagePreview {
+    background-image: url('https://i.ytimg.com/vi/7C_8GphRnGQ/maxresdefault.jpg');
+}
