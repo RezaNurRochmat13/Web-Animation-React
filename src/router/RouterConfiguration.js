@@ -8,6 +8,7 @@ import Amphibians from '../components/amphibians/Amphibians';
 import Birds from '../components/birds/Birds';
 import Mammals from '../components/mammals/Mammals';
 import Reptiles from '../components/reptiles/Reptiles';
+import Fish from '../components/fish/Fish';
 
 class RouterConfiguration extends React.Component {
     render() {
@@ -19,6 +20,7 @@ class RouterConfiguration extends React.Component {
                     <Route exact path='/burung' component={Birds} />
                     <Route exact path='/amphibi' component={Amphibians} />
                     <Route exact path='/reptile' component={Reptiles} />
+                    <Route exact path='/ikan' component={Fish} />
                 </Switch>
             </Router>
         );
