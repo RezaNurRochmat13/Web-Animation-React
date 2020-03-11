@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CarouselComponents from './components/carousel/CarouselComponents';
+import CarouselComponents from './shared/components/carousel/CarouselComponents';
 import RouterConfiguration from './router/RouterConfiguration';
 
 function App() {
