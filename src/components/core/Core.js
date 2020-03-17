@@ -1,11 +1,14 @@
 import React from 'react';
 import './Core.css';
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
+import CarouselComponent from '../../shared/components/carousel/CarouselComponents';
 
 class Core extends React.Component {
     render() {
         return (
-            <div className="Container">
+            <div className="core">
+                <CarouselComponent />
+                <div className="Container">
                 <div className="row">
                     <div className="col-md-4">
                     <Card>
@@ -78,6 +81,7 @@ class Core extends React.Component {
                     <br />
                     </div>
                 </div>
+            </div>
             </div>
         )
     }
