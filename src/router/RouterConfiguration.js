@@ -7,6 +7,7 @@ import Core from '../components/core/Core';
 import Amphibians from '../components/amphibians/Amphibians';
 import Birds from '../components/birds/Birds';
 import Mammals from '../components/mammals/Mammals';
+import KucingPages from '../components/mammals/page/kucing/KucingPage';
 import Reptiles from '../components/reptiles/Reptiles';
 import Fish from '../components/fish/Fish';
 
@@ -17,6 +18,7 @@ class RouterConfiguration extends React.Component {
                 <Switch>
                     <Route exact path="/" component={Core} />
                     <Route exact path='/mamalia' component={Mammals} />
+                    <Route exact path='/mamalia/kucing' component={KucingPages} />
                     <Route exact path='/burung' component={Birds} />
                     <Route exact path='/amphibi' component={Amphibians} />
                     <Route exact path='/reptile' component={Reptiles} />
