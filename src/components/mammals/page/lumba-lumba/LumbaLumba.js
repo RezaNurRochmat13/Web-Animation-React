@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Mammals.scss';
 
-class KucingPages extends React.Component {
+class LumbaLumbaPages extends React.Component {
     
     render() {
         return (
@@ -11,11 +11,11 @@ class KucingPages extends React.Component {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
-                            <img src="https://previews.123rf.com/images/jaaakworks/jaaakworks1511/jaaakworks151100094/48211278-cartoon-cats-standing.jpg"
-                            width="200px" height="200px" alt="cats" />
+                            <img src="https://illustoon.com/photo/1783.png"
+                            width="200px" height="200px" alt="dolphin" />
                             </div>
                             <div className="col-md-7">
-                                Cemeng iku kewan iso mengandung lan menyusui.
+                                LumbaLumba iku kewan iso mengandung lan menyusui.
                             </div>
                         </div>
                     </div>
@@ -25,4 +25,4 @@ class KucingPages extends React.Component {
     }
 }
 
-export default KucingPages;
+export default LumbaLumbaPages;

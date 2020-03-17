@@ -1,8 +1,6 @@
 import React from 'react';
-import '../../Mammals.scss';
 
-class KucingPages extends React.Component {
-    
+class AnjingPages extends React.Component {
     render() {
         return (
             <div className="Container">
@@ -11,11 +9,11 @@ class KucingPages extends React.Component {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
-                            <img src="https://previews.123rf.com/images/jaaakworks/jaaakworks1511/jaaakworks151100094/48211278-cartoon-cats-standing.jpg"
-                            width="200px" height="200px" alt="cats" />
+                            <img src="https://img3.stockfresh.com/files/r/robuart/m/72/8823746_stock-vector-cute-purebred-dogs-cartoon-flat-vectors-icons-set.jpg"
+                            width="200px" height="200px" alt="dogs" />
                             </div>
                             <div className="col-md-7">
-                                Cemeng iku kewan iso mengandung lan menyusui.
+                                Segawon iku kewan iso mengandung lan menyusui.
                             </div>
                         </div>
                     </div>
@@ -25,4 +23,4 @@ class KucingPages extends React.Component {
     }
 }
 
-export default KucingPages;
+export default AnjingPages;

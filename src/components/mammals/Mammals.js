@@ -14,7 +14,7 @@ class Mammals extends React.Component {
     render() {
         return(
             <div className="Container">
-                <a href="/" className="previous" onClick={this.goBack}>&laquo; Back to Menu</a>
+                <a href="/" className="previous" onClick={this.goBack}>&laquo; Back to Menu Awal</a>
                 <div className="mamalia-content-1">
                 <div className="row">
                     <div className="col-md-3">
@@ -27,22 +27,28 @@ class Mammals extends React.Component {
                         </p>
                     </div>
                     <div className="col-md-3">
-                        <img src="https://img3.stockfresh.com/files/r/robuart/m/72/8823746_stock-vector-cute-purebred-dogs-cartoon-flat-vectors-icons-set.jpg"
-                        width="200px" height="200px" alt="dogs" />
+                        <a href="/mamalia/anjing">
+                            <img src="https://img3.stockfresh.com/files/r/robuart/m/72/8823746_stock-vector-cute-purebred-dogs-cartoon-flat-vectors-icons-set.jpg"
+                            width="200px" height="200px" alt="dogs" />
+                        </a>
                         <p className="subtitle-mamalia-text">
                         Segawon
                         </p>
                     </div>
                     <div className="col-md-3">
-                        <img src="https://illustoon.com/photo/1783.png"
-                        width="200px" height="200px" alt="dolphin" />
+                        <a href="/mamalia/lumbalumba">
+                            <img src="https://illustoon.com/photo/1783.png"
+                            width="200px" height="200px" alt="dolphin" />
+                        </a>
                         <p className="subtitle-mamalia-text">
                         Lumba-lumba
                         </p>
                     </div>
                     <div className="col-md-3">
-                        <img src="https://img.freepik.com/free-vector/tiger-cartoon-cute_119631-205.jpg?size=626&ext=jpg"
-                        width="200px" height="200px" alt="tiger" />
+                        <a href="/mamalia/harimau">                            
+                            <img src="https://img.freepik.com/free-vector/tiger-cartoon-cute_119631-205.jpg?size=626&ext=jpg"
+                            width="200px" height="200px" alt="tiger" />
+                        </a>
                         <p className="subtitle-mamalia-text">
                         Macan
                         </p>
