@@ -76,8 +76,10 @@ class Mammals extends React.Component {
                         </p>
                     </div>
                     <div className="col-md-3">
-                        <img src="https://image.freepik.com/free-vector/happy-rabbit-cartoon_43633-129.jpg"
-                        width="200px" height="200px" alt="rabbits" />
+                        <a href="/mamalia/kelinci">
+                            <img src="https://image.freepik.com/free-vector/happy-rabbit-cartoon_43633-129.jpg"
+                            width="200px" height="200px" alt="rabbits" />
+                        </a>
                         <p className="subtitle-mamalia-text">
                         Terwelu
                         </p>
