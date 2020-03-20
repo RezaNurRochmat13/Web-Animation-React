@@ -85,8 +85,10 @@ class Mammals extends React.Component {
                         </p>
                     </div>
                     <div className="col-md-3">
-                        <img src="https://previews.123rf.com/images/dualororua/dualororua1605/dualororua160500016/56379057-cartoon-goat-character.jpg"
-                        width="200px" height="200px" alt="goats" />
+                        <a href="/mamalia/kambing">
+                            <img src="https://previews.123rf.com/images/dualororua/dualororua1605/dualororua160500016/56379057-cartoon-goat-character.jpg"
+                            width="200px" height="200px" alt="goats" />
+                        </a>
                         <p className="subtitle-mamalia-text">
                         Wedhus
                         </p>
