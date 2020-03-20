@@ -8,6 +8,16 @@
     margin: 20px;
 }
 
-.imagePreview {
-    background-image: url('https://i.ytimg.com/vi/7C_8GphRnGQ/maxresdefault.jpg');
+#mamalia-cards {
+    border-radius: 20%;
+}
+
+.core-card-images {
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.core-card-text {
+    padding-left: 110px;
 }

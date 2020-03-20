@@ -11,70 +11,74 @@ class Core extends React.Component {
                 <div className="Container">
                 <div className="row">
                     <div className="col-md-4">
-                    <Card>
+                    <Card id="mamalia-cards">
                         <Card.Link href="/mamalia">
-                            <Card.Img variant="top" 
+                            <img 
                             src="https://previews.123rf.com/images/drekhann/drekhann1708/drekhann170800094/84589437-cute-cartoon-cats-and-dogs-with-different-emotions-sticker-collection-set-of-doodle-emoji-and-emotic.jpg"
-                            width="200px" />
+                            alt="mamalia" 
+                            className="core-card-images"/>
                         </Card.Link>
                         <Card.Body>
                         <Card.Text>
-                            Mamalia
+                            <p className="core-card-text">Mamalia</p>
                         </Card.Text>
                         </Card.Body>
                     </Card>
                     <br/>
-                    <Card>
+                    <Card id="mamalia-cards">
                         <Card.Link href="/burung">
-                            <Card.Img variant="top" 
+                            <img 
                             src="https://previews.123rf.com/images/drekhann/drekhann1708/drekhann170800094/84589437-cute-cartoon-cats-and-dogs-with-different-emotions-sticker-collection-set-of-doodle-emoji-and-emotic.jpg"
-                            width="200px" />
+                            alt="burung" className="core-card-images" />
                         </Card.Link>
                         <Card.Body>
                         <Card.Text>
-                            Burung
+                            <p className="core-card-text ">Burung</p>
                         </Card.Text>
                         </Card.Body>
                     </Card>
                     <br />
                     </div>
                     <div className="col-md-4">
-                    <Card>
+                    <Card id="mamalia-cards">
                         <Card.Link href="/amphibi">
-                            <Card.Img variant="top" 
+                            <img
                             src="https://previews.123rf.com/images/drekhann/drekhann1708/drekhann170800094/84589437-cute-cartoon-cats-and-dogs-with-different-emotions-sticker-collection-set-of-doodle-emoji-and-emotic.jpg"
-                            width="200px" />
+                            alt="amphibi"
+                            className="core-card-images" />
                         </Card.Link>
                         <Card.Body>
                         <Card.Text>
-                            Amphibi
+                            <p className="core-card-text ">Amphibi</p>
                         </Card.Text>
                         </Card.Body>
                     </Card>
                     <br />
-                    <Card>
+                    <Card id="mamalia-cards">
                         <Card.Link href="/reptile">
-                            <Card.Img variant="top" 
+                            <img 
                             src="https://previews.123rf.com/images/drekhann/drekhann1708/drekhann170800094/84589437-cute-cartoon-cats-and-dogs-with-different-emotions-sticker-collection-set-of-doodle-emoji-and-emotic.jpg"
-                            width="200px" />
+                            alt="reptil"
+                            className="core-card-images" />
                         </Card.Link>
                         <Card.Body>
                         <Card.Text>
-                            Reptil
+                            <p className="core-card-text">Reptil</p>
                         </Card.Text>
                         </Card.Body>
                     </Card>
                     </div>
                     <div className="col-md-4">
-                    <Card>
+                    <Card id="mamalia-cards">
                         <Card.Link href="/ikan">
-                            <Card.Img variant="top" 
+                            <img
                             src="https://previews.123rf.com/images/drekhann/drekhann1708/drekhann170800094/84589437-cute-cartoon-cats-and-dogs-with-different-emotions-sticker-collection-set-of-doodle-emoji-and-emotic.jpg"
-                            width="200px" />
+                            alt="ikan"
+                            className="core-card-images" />
                         </Card.Link>
                         <Card.Body>
                         <Card.Text>
-                            Ikan
+                            <p className="core-card-text">Ikan</p>
                         </Card.Text>
                         </Card.Body>
                     </Card>
