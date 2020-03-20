@@ -15,6 +15,7 @@ import AnjingPages from '../components/mammals/page/anjing/AnjingPage';
 import LumbaLumbaPages from '../components/mammals/page/lumba-lumba/LumbaLumba';
 import HarimauPages from '../components/mammals/page/harimau/HarimauPages';
 import SingaPages from '../components/mammals/page/singa/Singa';
+import KanguruPage from '../components/mammals/page/kanguru/Kanguru';
 
 class RouterConfiguration extends React.Component {
     render() {
@@ -28,6 +29,7 @@ class RouterConfiguration extends React.Component {
                     <Route exact path='/mamalia/lumbalumba' component={LumbaLumbaPages} />
                     <Route exact path='/mamalia/harimau' component={HarimauPages} />
                     <Route exact path='/mamalia/singa' component={SingaPages} />
+                    <Route exact path='/mamalia/kanguru' component={KanguruPage} />
                     <Route exact path='/burung' component={Birds} />
                     <Route exact path='/amphibi' component={Amphibians} />
                     <Route exact path='/reptile' component={Reptiles} />
