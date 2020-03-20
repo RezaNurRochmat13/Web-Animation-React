@@ -58,8 +58,10 @@ class Mammals extends React.Component {
                 <div className="mamalia-content-2">
                 <div className="row">
                     <div className="col-md-3">
-                        <img src="https://image.freepik.com/free-vector/cartoon-lion-posing-white-background_29190-5183.jpg"
-                        width="200px" height="200px" alt="lion" />
+                        <a href="/mamalia/singa">
+                            <img src="https://image.freepik.com/free-vector/cartoon-lion-posing-white-background_29190-5183.jpg"
+                            width="200px" height="200px" alt="lion" />
+                        </a>
                         <p className="subtitle-mamalia-text">
                         Singo
                         </p>
