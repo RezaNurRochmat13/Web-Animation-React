@@ -1,31 +1,60 @@
 import React from 'react';
+import Modal from 'react-awesome-modal';
+import KucingPages from './page/kucing/KucingPage';
 import './Mammals.scss';
 
 class Mammals extends React.Component {
     constructor(props) {
         super(props);
         this.goBack = this.goBack.bind(this);
+        this.state = {
+            openModalActive: false
+        };
     }
 
     goBack() {
         this.props.history.goBack();
     }
 
+    onOpenModal = () => {
+        this.setState({openModalActive: true});
+    }
+
+    onCloseModal = () => {
+        this.setState({openModalActive: false});
+    }
+
     render() {
+
         return(
             <div className="Container">
                 <a href="/" className="previous" onClick={this.goBack}>&laquo; Back to Menu Awal</a>
                 <div className="mamalia-content-1">
                 <div className="row">
                     <div className="col-md-3">
-                        <a href="/mamalia/kucing">
-                            <img className="mamalia-image"
-                            src="https://previews.123rf.com/images/jaaakworks/jaaakworks1511/jaaakworks151100094/48211278-cartoon-cats-standing.jpg"
-                            width="200px" height="200px" alt="cats" />
-                        </a>
+                        <img className="mamalia-image"
+                        src="https://previews.123rf.com/images/jaaakworks/jaaakworks1511/jaaakworks151100094/48211278-cartoon-cats-standing.jpg"
+                        width="200px" height="200px" alt="cats"
+                        onClick={this.onOpenModal}/>
                         <p className="subtitle-mamalia-text">
                         Cemeng
                         </p>
+                        {/* Kucing Modals Start */}
+                        <Modal visible={this.state.openModalActive} width="800" height="500" effect="fadeInDown" onClickAway={() => this.onCloseModal()}>
+                            <div className="modal-header">
+                                <h5 class="modal-title">Cemeng modal</h5>
+                                <button type="button" class="close" aria-label="Close" onClick={this.onCloseModal}>
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div className="modal-body">
+                                <KucingPages />
+                            </div>
+                            <div className="modal-footer">
+                                <button className="btn btn-secondary" onClick={() => this.onCloseModal()}>Close Modal</button>
+                            </div>
+                        </Modal>
+                        {/* Kucing Modals End */}
                     </div>
                     <div className="col-md-3">
                         <a href="/mamalia/anjing">

@@ -5,8 +5,7 @@ class KucingPages extends React.Component {
     
     render() {
         return (
-            <div className="Container">
-                <a href="/mamalia" className="previous">&laquo; Balik nang Kategori</a>
+            <div>
                 <div className="card">
                     <div className="card-body">
                         <div className="row">
