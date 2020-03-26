@@ -1,4 +1,5 @@
 import React from 'react';
+import KelinciImages from '../../img/kelinci.jpg';
 
 class KelinciPages extends React.Component {
     render() {
@@ -8,7 +9,7 @@ class KelinciPages extends React.Component {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
-                            <img src="https://image.freepik.com/free-vector/happy-rabbit-cartoon_43633-129.jpg"
+                            <img src={KelinciImages}
                             width="200px" height="200px" alt="rabbits" />
                             </div>
                             <div className="col-md-7">

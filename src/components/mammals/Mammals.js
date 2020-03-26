@@ -10,6 +10,16 @@ import LumbaLumbaPages from './page/lumba-lumba/LumbaLumba';
 import SingaPages from './page/singa/Singa';
 import './Mammals.scss';
 
+// Loaded static image
+import KucingImages from './img/kucing.jpg';
+import AnjingImages from './img/anjing.jpg';
+import LumbaLumbaImages from './img/lumba-lumba.png';
+import HarimauImages from './img/harimau.jpg';
+import SingaImages from './img/singa.jpg';
+import KanguruImages from './img/kanguru.jpeg';
+import KelinciImages from './img/kelinci.jpg';
+import KambingImages from './img/kambing.jpg';
+
 class Mammals extends React.Component {
     constructor(props) {
         super(props);
@@ -109,8 +119,7 @@ class Mammals extends React.Component {
                 <div className="mamalia-content-1">
                 <div className="row">
                     <div className="col-md-3">
-                        <img className="mamalia-image"
-                        src="https://previews.123rf.com/images/jaaakworks/jaaakworks1511/jaaakworks151100094/48211278-cartoon-cats-standing.jpg"
+                        <img className="mamalia-image" src={KucingImages}
                         width="200px" height="200px" alt="cats"
                         onClick={this.onOpenCatsModal}/>
                         <p className="subtitle-mamalia-text">
@@ -131,8 +140,7 @@ class Mammals extends React.Component {
                         {/* Cat Modals End */}
                     </div>
                     <div className="col-md-3">
-                        <img className="mamalia-image"
-                        src="https://img3.stockfresh.com/files/r/robuart/m/72/8823746_stock-vector-cute-purebred-dogs-cartoon-flat-vectors-icons-set.jpg"
+                        <img className="mamalia-image" src={AnjingImages}
                         width="200px" height="200px" alt="dogs" 
                         onClick={this.onOpenDogsModal} />
                         <p className="subtitle-mamalia-text">
@@ -153,8 +161,7 @@ class Mammals extends React.Component {
                         {/* Dog Modals End */}
                     </div>
                     <div className="col-md-3">
-                        <img className="mamalia-image"
-                        src="https://illustoon.com/photo/1783.png"
+                        <img className="mamalia-image" src={LumbaLumbaImages}
                         width="200px" height="200px" alt="dolphin" 
                         onClick={this.onOpenDolphinModal}/>
                         <p className="subtitle-mamalia-text">
@@ -175,8 +182,7 @@ class Mammals extends React.Component {
                         {/* Dolphin Modals End */}
                     </div>
                     <div className="col-md-3">                           
-                        <img className="mamalia-image"
-                        src="https://img.freepik.com/free-vector/tiger-cartoon-cute_119631-205.jpg?size=626&ext=jpg"
+                        <img className="mamalia-image" src={HarimauImages}
                         width="200px" height="200px" alt="tiger" 
                         onClick={this.onOpenTigersModal} />
                         <p className="subtitle-mamalia-text">
@@ -201,8 +207,7 @@ class Mammals extends React.Component {
                 <div className="mamalia-content-2">
                 <div className="row">
                     <div className="col-md-3">
-                        <img className="mamalia-image"
-                        src="https://image.freepik.com/free-vector/cartoon-lion-posing-white-background_29190-5183.jpg"
+                        <img className="mamalia-image" src={SingaImages}
                         width="200px" height="200px" alt="lion" 
                         onClick={this.onOpenLionModal} />
                         <p className="subtitle-mamalia-text">
@@ -223,8 +228,7 @@ class Mammals extends React.Component {
                         {/* Lion Modals End */}
                     </div>
                     <div className="col-md-3">
-                        <img className="mamalia-image"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRyUYId5TxanORahN5JR2SRX4g6-cHlmSB4hkFLN03mJ1ZrImke"
+                        <img className="mamalia-image" src={KanguruImages}
                         width="200px" height="200px" alt="kanguru" 
                         onClick={this.onOpenKangorooModal} />
                         <p className="subtitle-mamalia-text">
@@ -245,8 +249,7 @@ class Mammals extends React.Component {
                         {/* Kangoroo Modals End */}
                     </div>
                     <div className="col-md-3">
-                        <img className="mamalia-image"
-                        src="https://image.freepik.com/free-vector/happy-rabbit-cartoon_43633-129.jpg"
+                        <img className="mamalia-image" src={KelinciImages}
                         width="200px" height="200px" alt="rabbits" 
                         onClick={this.onOpenRabbitModal} />
                         <p className="subtitle-mamalia-text">
@@ -267,8 +270,7 @@ class Mammals extends React.Component {
                         {/* Rabbit Modals End */}
                     </div>
                     <div className="col-md-3">
-                        <img className="mamalia-image"
-                        src="https://previews.123rf.com/images/dualororua/dualororua1605/dualororua160500016/56379057-cartoon-goat-character.jpg"
+                        <img className="mamalia-image" src={KambingImages}
                         width="200px" height="200px" alt="goats" 
                         onClick={this.onOpenGoatModal} />
                         <p className="subtitle-mamalia-text">

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Mammals.scss';
+import KucingImages from '../../img/kucing.jpg';
 
 class KucingPages extends React.Component {
     
@@ -10,7 +10,7 @@ class KucingPages extends React.Component {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
-                            <img src="https://previews.123rf.com/images/jaaakworks/jaaakworks1511/jaaakworks151100094/48211278-cartoon-cats-standing.jpg"
+                            <img src={KucingImages}
                             width="200px" height="200px" alt="cats" />
                             </div>
                             <div className="col-md-7">

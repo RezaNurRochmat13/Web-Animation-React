@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Mammals.scss';
+import SingaImages from '../../img/singa.jpg';
 
 class SingaPages extends React.Component {
     
@@ -10,7 +10,7 @@ class SingaPages extends React.Component {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
-                            <img src="https://image.freepik.com/free-vector/cartoon-lion-posing-white-background_29190-5183.jpg"
+                            <img src={SingaImages}
                             width="200px" height="200px" alt="singa" />
                             </div>
                             <div className="col-md-7">

@@ -1,4 +1,5 @@
 import React from 'react';
+import AnjingImages from '../../img/anjing.jpg';
 
 class AnjingPages extends React.Component {
     render() {
@@ -8,7 +9,7 @@ class AnjingPages extends React.Component {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
-                            <img src="https://img3.stockfresh.com/files/r/robuart/m/72/8823746_stock-vector-cute-purebred-dogs-cartoon-flat-vectors-icons-set.jpg"
+                            <img src={AnjingImages}
                             width="200px" height="200px" alt="dogs" />
                             </div>
                             <div className="col-md-7">

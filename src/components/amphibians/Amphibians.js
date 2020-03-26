@@ -43,7 +43,6 @@ class Amphibians extends React.Component {
                         </div>
                     </div>
                 </div>
-                
             </div>
         )
     }

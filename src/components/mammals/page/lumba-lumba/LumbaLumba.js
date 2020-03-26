@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Mammals.scss';
+import LumbaLumbaImages from '../../img/lumba-lumba.png';
 
 class LumbaLumbaPages extends React.Component {
     
@@ -10,7 +10,7 @@ class LumbaLumbaPages extends React.Component {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-4">
-                            <img src="https://illustoon.com/photo/1783.png"
+                            <img src={LumbaLumbaImages}
                             width="200px" height="200px" alt="dolphin" />
                             </div>
                             <div className="col-md-7">
