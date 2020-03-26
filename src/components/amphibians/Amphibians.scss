@@ -1,0 +1,35 @@
+.Container {
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.amphibi-content-1 {
+    margin-bottom: 100px;
+    .images-circle {
+        border-radius: 50%;
+    }
+    .subtitle-images {
+        padding-top: 10px;
+        padding-left: 70px;
+        color: white;
+    }
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+  
+a:hover {
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 10%;
+}
